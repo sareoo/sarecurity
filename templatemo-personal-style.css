@@ -149,7 +149,7 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         body {
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+            font-family: 'Arvo';
             line-height: 1.7;
             color: var(--text-primary);
             scroll-behavior: smooth;
@@ -186,7 +186,7 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         .logo {
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+            font-family: 'Arvo';
             font-size: 1.75rem;
             font-weight: 700;
             background: var(--gradient-elegant);
@@ -308,7 +308,7 @@ https://templatemo.com/tm-593-personal-shape
         .mobile-menu.active .mobile-nav-links li:nth-child(4) { transition-delay: 0.4s; }
 
         .mobile-nav-links a {
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+            font-family: 'Arvo';
             font-size: 2.5rem;
             font-weight: 500;
             color: var(--text-light);
@@ -499,7 +499,7 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         .hero h1 {
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+            font-family: 'Arvo';
             font-size: 5rem;
             font-weight: 700;
             margin-bottom: 1.5rem;
@@ -604,7 +604,7 @@ https://templatemo.com/tm-593-personal-shape
 
         .section-title {
             text-align: center;
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+            font-family: 'Arvo';
             font-size: 3.5rem;
             font-weight: 600;
             margin-bottom: 4rem;
@@ -689,7 +689,7 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         .about-text h3 {
-            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+            font-family: 'Arvo';
             font-size: 2.5rem;
             margin-bottom: 2rem;
             color: var(--text-primary);
