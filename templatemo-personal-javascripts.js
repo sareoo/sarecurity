@@ -138,13 +138,3 @@ https://templatemo.com/tm-593-personal-shape
                 document.body.style.overflow = 'auto';
             }
         });
-
-        // Scroll effect for the word Technical
-        window.addEventListener('scroll', () => {
-        const element = document.querySelector('.highlight-on-scroll');
-        const rect = element.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
-             if (isVisible) {
-               element.classList.add('scrolled');
-             }
-         });

@@ -1200,18 +1200,20 @@ https://templatemo.com/tm-593-personal-shape
 
             .container {
                 padding: 0 1rem;
-            }
+            } 
 
-            .highlight-on-scroll {
+
+            .highlight-on-load {
                 display: inline-block;
                 position: relative;
                 font-size: 3rem;
                 color: white; /* initial color */
                 overflow: hidden;
+                animation: highlightSweep 1.5s ease forwards;
               }
               
-              /* Create the sweeping highlight effect */
-              .highlight-on-scroll::before {
+              /* Background sweep effect */
+              .highlight-on-load::before {
                 content: '';
                 position: absolute;
                 top: 0;
@@ -1220,17 +1222,27 @@ https://templatemo.com/tm-593-personal-shape
                 width: 0;
                 background-color: black;
                 z-index: -1;
-                transition: width 1.5s ease;
+                animation: sweepBackground 1.5s ease forwards;
               }
               
-              /* Change text color when highlighted */
-              .highlight-on-scroll.scrolled {
-                color: limegreen;
+              /* Keyframes for background sweep */
+              @keyframes sweepBackground {
+                from {
+                  width: 0;
+                }
+                to {
+                  width: 100%;
+                }
               }
               
-              /* Trigger the animation */
-              .highlight-on-scroll.scrolled::before {
-                width: 100%;
+              /* Keyframes for text color change */
+              @keyframes highlightSweep {
+                from {
+                  color: white;
+                }
+                to {
+                  color: limegreen;
+                }
               }
-
+                            
         }
