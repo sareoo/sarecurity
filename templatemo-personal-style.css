@@ -684,10 +684,6 @@ https://templatemo.com/tm-593-personal-shape
             opacity: 0.7;
         }
 
-        .about-image::after {
-
-        }
-
         .about-text h3 {
             font-family: 'Arvo';
             font-size: 2.5rem;
@@ -1205,4 +1201,36 @@ https://templatemo.com/tm-593-personal-shape
             .container {
                 padding: 0 1rem;
             }
+
+            .highlight-on-scroll {
+                display: inline-block;
+                position: relative;
+                font-size: 3rem;
+                color: white; /* initial color */
+                overflow: hidden;
+              }
+              
+              /* Create the sweeping highlight effect */
+              .highlight-on-scroll::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0;
+                background-color: black;
+                z-index: -1;
+                transition: width 1.5s ease;
+              }
+              
+              /* Change text color when highlighted */
+              .highlight-on-scroll.scrolled {
+                color: limegreen;
+              }
+              
+              /* Trigger the animation */
+              .highlight-on-scroll.scrolled::before {
+                width: 100%;
+              }
+
         }
