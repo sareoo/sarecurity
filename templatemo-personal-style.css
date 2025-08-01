@@ -1206,7 +1206,6 @@ https://templatemo.com/tm-593-personal-shape
             .highlight-on-load {
                 display: inline-block;
                 position: relative;
-                font-size: 3rem;
                 color: white; /* initial color */
                 overflow: hidden;
                 animation: highlightSweep 1.5s ease forwards;
@@ -1246,3 +1245,4 @@ https://templatemo.com/tm-593-personal-shape
               }
                             
         }
+
