@@ -548,6 +548,20 @@ https://templatemo.com/tm-593-personal-shape
             border-color: rgba(255, 255, 255, 0.4);
         }
 
+        .highlight-technical {
+            background-color: black;
+            color: limegreen;
+            padding: 0.2em 0.4em;
+            border-radius: 4px; 
+          }
+        .highlight-non-technical {
+            background-color: white;
+            color: black;
+            padding: 0.2em 0.4em;
+            border-radius: 4px; 
+          }
+
+
         @keyframes fadeInUp {
             to {
                 opacity: 1;
@@ -1201,48 +1215,5 @@ https://templatemo.com/tm-593-personal-shape
             .container {
                 padding: 0 1rem;
             } 
-
-
-            .highlight-on-load {
-                display: inline-block;
-                position: relative;
-                color: white; /* initial color */
-                overflow: hidden;
-                animation: highlightSweep 1.5s ease forwards;
-              }
-              
-              /* Background sweep effect */
-              .highlight-on-load::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 100%;
-                width: 0;
-                background-color: black;
-                z-index: -1;
-                animation: sweepBackground 1.5s ease forwards;
-              }
-              
-              /* Keyframes for background sweep */
-              @keyframes sweepBackground {
-                from {
-                  width: 0;
-                }
-                to {
-                  width: 100%;
-                }
-              }
-              
-              /* Keyframes for text color change */
-              @keyframes highlightSweep {
-                from {
-                  color: white;
-                }
-                to {
-                  color: limegreen;
-                }
-              }
-                            
         }
 
